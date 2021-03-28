@@ -1,0 +1,63 @@
+* {
+	text-transform: capitalize;
+	cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+* {
+	padding: 0;
+	margin: 0;
+}
+.body {
+	display: flex;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.app {
+	display: inline-block;
+	width: auto;
+	padding: 0 10%;
+	background-color: #fcad03;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+
+@media (max-width: 1060px) {
+	.body {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 760px) {
+	.body {
+		flex-direction: column;
+	}
+	.card__container {
+		flex-direction: column;
+	}
+	.card {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 500px) {
+	.card {
+		flex-direction: column;
+	}
+}

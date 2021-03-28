@@ -1,0 +1,22 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	/* padding: 1em; */
+	/* margin: 0.6em 0; */
+}
+
+.select__countries {
+	padding: 0.5em;
+	border-radius: 0.5em;
+	background-color: #00f729;
+	font-weight: 700;
+	text-align: center;
+	width: auto;
+	border: none;
+}
+.select__countries:focus {
+	outline: none;
+}

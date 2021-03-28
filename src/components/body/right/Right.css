@@ -1,0 +1,64 @@
+.right {
+	margin: 0 0 1em 0;
+	flex: 0.4;
+}
+
+.right__scrollable {
+	overflow-y: scroll;
+	height: 60vh;
+}
+
+.title {
+	color: white;
+	background-color: #eb4b3f;
+}
+
+.right__heading {
+	text-align: center;
+	background-color: #eb4b3f;
+}
+
+tr {
+	display: flex;
+}
+
+tr:nth-child(even) {
+	background-color: #eb4b3f;
+}
+
+td {
+	color: black;
+	padding: 0.3em 0.5em;
+}
+
+.right__table__td__name {
+	flex: 0.8;
+}
+
+.right__table__td__cases {
+	align-items: right;
+	align-content: flex-end;
+	flex: 0.2;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

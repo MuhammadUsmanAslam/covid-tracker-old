@@ -1,0 +1,11 @@
+.line__chart {
+	margin: 1em 0;
+	width: 100% !important;
+	height: auto;
+}
+
+@media (max-width: 1060px) {
+	.line__chart {
+		max-width: 35em;
+	}
+}
